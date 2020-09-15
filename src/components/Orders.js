@@ -47,7 +47,10 @@ const Orders = ({data, loading}) => {
                                     pathname: '/order/'+info.key,
                                     state: {
                                         name: info.name,
-                                        desc: info.desc
+                                        desc: info.desc,
+                                        origin: info.origin,
+                                        destination: info.destination,
+                                        status: info.status
                                     }
                                 }} className="title">
                                     {info.name}
