@@ -1,0 +1,30 @@
+.main-btn{
+    &{
+        height: 2.2em;
+        width: 8em;
+        font-size: 1em;
+        font-weight: bold;
+        background: $brand;
+        color: #fff;
+        border: none;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.-export{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &.-signout{
+        height: 2em;
+        width: 3em;
+
+        @media screen and (max-width: 850px){
+            margin: 0;
+            margin-left: 7px;
+        }
+    }
+}

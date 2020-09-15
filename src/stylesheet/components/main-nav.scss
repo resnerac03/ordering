@@ -1,0 +1,12 @@
+.main-nav{
+    &{
+        color: #fff;
+        height: 3.5em;
+        display: flex;
+    }
+
+    @media screen and (max-width: 850px){
+        margin-top: 27px;
+    }
+    
+}

@@ -1,0 +1,30 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+// Bootstrap
+
+// @import "~bootstrap/scss/functions"; 
+// @import "~bootstrap/scss/variables";
+// @import "~bootstrap/scss/mixins";
+
+@import './custom';
+
+@import "~bootstrap/scss/bootstrap";
+
+
+
+// globals
+@import './base';
+@import './variables';
+
+// components
+@import './components/main-wrapper';
+@import './components/main-container';
+@import './components/main-body';
+@import './components/main-footer';
+@import './components/form-wrapper';
+@import './components/main-nav';
+@import './components/menu-wrapper';
+@import './components/list-wrapper';
+@import './components/main-btn';
+@import './components/single-wrapper';
